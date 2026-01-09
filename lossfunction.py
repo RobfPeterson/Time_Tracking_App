@@ -5,6 +5,7 @@ from datetime import datetime
 from datetime import date
 import json
 
+
 def query_database(limit=None, app_filter=None, include_web_usage=True, target_date=None):
     """
     Query macOS Knowledge database for app usage data.
@@ -521,8 +522,7 @@ def set_points(points=None):
     
     return points
 
-# Usage example
-if __name__ == "__main__":
+def main():
     print("=== App Usage Tracker ===\n")
     
     # Query today's usage
@@ -593,3 +593,6 @@ if __name__ == "__main__":
             points = update_points(df, goals, points)
     else:
         print("No data retrieved. Please check database access permissions.")
+# Usage example
+if __name__ == "__main__":
+    main()
