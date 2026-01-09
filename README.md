@@ -4,8 +4,8 @@ This is a quick python function I put together to monitor my app and website usa
 
 I used sqlite, both to practice at applying sql in a practical format and to leverage the existing documentation, and JSON for storage. 
 
-#Done
+# Done
 - Added Scheduling Feature
-#TODO
+# TODO
 - Add Password Protection
 
