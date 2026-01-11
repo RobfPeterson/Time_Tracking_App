@@ -8,4 +8,5 @@ I used sqlite, both to practice at applying sql in a practical format and to lev
 - Added Scheduling Feature
 # TODO
 - Add Password Protection
+- Add UI
 
